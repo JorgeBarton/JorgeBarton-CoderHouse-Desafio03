@@ -10,6 +10,7 @@ public class PlayerTurretFire_v01 : MonoBehaviour
     void Start()
     {
         Fire();
+        Debug.Log("fire1");
     }
 
     // Update is called once per frame
@@ -21,5 +22,6 @@ public class PlayerTurretFire_v01 : MonoBehaviour
     public void Fire()
     {
         Instantiate(bullet,barrel.transform);
+        Debug.Log("Fire2");
     }
 }
